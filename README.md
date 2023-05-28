@@ -28,7 +28,7 @@ In that case, options are ignored.
 
 I've been using this for a few years to build a local search engine : I
 have dumps of the zimfiles for wikipedia (english and french), wikisource
-(english and french), wiktionary (you've guess it), stackoverflow, and a
+(english and french), wiktionary (you've guessed it), stackoverflow, and a
 few thematic wikis. With zim_dump, I extract title and url for all articles
 from all those archives, store them in a sqlite database, and then I can
 use its full text search feature to (kind of) quickly find an article whose
