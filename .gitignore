@@ -1,0 +1,5 @@
+zim_dump
+zim_dump-dev
+tags
+*.o
+*.o-dev
