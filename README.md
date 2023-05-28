@@ -32,7 +32,7 @@ have dumps of the zimfiles for wikipedia (english and french), wikisource
 few thematic wikis. With zim_dump, I extract title and url for all articles
 from all those archives, store them in a sqlite database, and then I can
 use its full text search feature to (kind of) quickly find an article whose
-name match a query of mine. That means I can perform most of my search
+name match a query of mine. That means I can perform most of my searches
 without even issuing a request through the internet. This is cool.
 
 But lately, I realized that this tool could also be useful to people
@@ -41,7 +41,7 @@ of compressed data offered by kiwix](https://wiki.kiwix.org/wiki/Content_in_all_
 to train your models. And since you're working with a compressed archive,
 it's optimized for size. I've modified zim_dump to add the `-a` flag, which
 allows to dump not just the title and url of the article, but also its
-content. Now, you can stream all wikipedia articles to you model training,
+content. Now, you can stream all wikipedia articles to your model training,
 and it only takes 46gb on your hard drive (that's the size of
 wikipedia_en_all_nopic_2021-11.zim, which I'm using at the time of writing).
 
