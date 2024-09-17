@@ -16,5 +16,5 @@ analyze:
   image: musicscience37/clang-ci
   script:
     - ln -s $(ls -1 /usr/bin/scan-build-* | head -n 1) /usr/bin/scan-build
-    - apt update && apt install libzstd-dev
+    - apt update && apt install -y libzstd-dev
     - make analyze
